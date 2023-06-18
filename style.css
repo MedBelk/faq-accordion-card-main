@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+body{
+background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+}
+.accordionCard{
+
+    border: 2px solid;
+    border-radius: 30px;
+    box-shadow: 2px black;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+    margin: 0px 10px;
+    background-color: aliceblue;
+    height: 500px;
+    width: 900px;
+}
+.hero{
+    flex: 1;
+    height: 500px;
+    width: 450px;  
+}
+#shadox,#woman,#box{
+    object-position: center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+
+}

@@ -30,9 +30,21 @@ height: 100vh;
     width: 900px;
 }
 .hero{
-    flex: 1;
+    
     height: 500px;
     width: 450px;  
+}
+.FAQ{
+    height: 500px;
+    width: 450px;  
+
+}
+#shadow{
+    height: px;
+    width: 450px;
+    position: absolute;
+    left: 0px;
+bottom: 150px;
 }
 
 

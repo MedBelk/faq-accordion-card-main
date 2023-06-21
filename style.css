@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Kumbh Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.accordionCard {
+    border: 2px solid;
+    border-radius: 30px;
+    box-shadow: 5px 10px 8px 10px #3838383a;
+    display: flex;
+    flex-direction: row;
+    padding: 0 30px 0 0;
+    margin: 0px 10px;
+    background-color: aliceblue;
+    height: 500px;
+    width: 900px;
+}
+
+.hero {
+    width: 50%;
+    position: relative;
+}
+
+
+#shadow {
+    position: absolute;
+    object-fit: fill;
+    height: 200%;
+    width: 200%;
+    object-position: right;
+    transform: translate(-60%, -30%);
+
+
+}
+
+
+.wombox {
+    position: relative;
+    transform: translate(-30px, 10%);
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.heroContain {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.womboxhide {
+    overflow: hidden;
+
+}
+
+#woman {
+    transform: translate(-90px, 0%) scale(100%);
+}
+
+#box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-120px, -140px) scale(70%);
+    object-fit: cover;
+    height: 50%;
+    width: 50%;
+}
+
+
+.FAQ {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    width: 50%;
+}
+
+.title {
+    display: flex;
+    
+    align-items:flex-start;
+    margin-bottom: 50px;
+    font-size: large;
+    font-weight: 400;
+}
+
+.faq {
+    font-size: 14px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+summary {
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+
+}
+
+summary:focus {
+    font-weight: 700;
+
+    .chevron {
+        transform: rotate(180deg);
+    }
+}
+
+summary:hover {
+    color: hsl(14, 88%, 65%);
+
+
+}
+
+
+details {
+    border: 1px hsl(240, 5%, 91%);
+    border-style: hidden hidden solid hidden;
+
+    padding: 10px 0px;
+
+
+
+
+
+
+}
+
+#arrowDown {
+    margin-left: 10px;
+    height: 10px;
+    width: auto;
+    display: flex;
+    justify-self: flex-end;
+}
+
+
+details summary {
+    list-style-type: '👉 ';
+}
+
+details[open] summary {
+    list-style-type: '👇 ';
+}
+
+.chevron {
+    background: url("./images/icon-arrow-down.svg");
+    height: 10px;
+    width: 14px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-out;
+}

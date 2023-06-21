@@ -21,7 +21,7 @@ body {
 .accordionCard {
     border: 2px solid;
     border-radius: 30px;
-    box-shadow: 5px 5px px rgb(92, 91, 91);
+    box-shadow: 5px 10px 8px 10px #3838383a;
     display: flex;
     flex-direction: row;
     padding: 0 30px 0 0;
@@ -94,8 +94,8 @@ body {
 
 .title {
     display: flex;
-    justify-content:flex-start;
-    align-items:flex-start ;
+    
+    align-items:flex-start;
     margin-bottom: 50px;
     font-size: large;
     font-weight: 400;
